@@ -47,3 +47,34 @@
 // console.log(calculateCircleArea(10)); // should print 314.159...
 // console.log(calculateCircleArea(3.5)); // should print 38.484...
 // console.log(calculateCircleArea(-1)); // should print undefined
+//****************************** */
+// const range = function (start, end, step) {
+//   const myRange = []
+//   let current = start
+//   while (current <= end) {
+//     myRange.push(current)
+//     current = current + step
+//   }
+//   return myRange
+// }
+// console.log(range(0, 10, 2));
+// console.log(range(10, 30, 5));
+// console.log(range(-5, 2, 3));
+
+//********************* */
+// const lastIndexOf =  function (arr, val) {
+//   let occurance = -1
+//   for (let i = 0; i < arr.length; i++) {
+//     const currentValue = arr[i];
+//     if (currentValue === val) {
+//      occurance = i 
+//     }
+//   }
+//   return occurance
+// }
+
+// console.log(lastIndexOf([ 0, 1, 4, 1, 2 ], 1), "=?", 3);
+// console.log(lastIndexOf([ 0, 1, 4, 1, 2 ], 2), "=?", 4);
+// console.log(lastIndexOf([ 0, 1, 4, 1, 2 ], 3), "=?", -1);
+// console.log(lastIndexOf([ 5, 5, 5 ], 5), "=?", 2);
+// console.log(lastIndexOf([], 3), "=?", -1);
