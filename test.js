@@ -97,3 +97,7 @@
 //   return bins
 // }
 // console.log(smartGarbage('recycling', { waste: 4, recycling: 2, compost: 5 }));
+// const carPassing = function (cars, speed) {
+//   cars.push({time: Date.now(), speed: speed});
+//   return cars;
+// }
