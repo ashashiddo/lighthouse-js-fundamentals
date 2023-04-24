@@ -78,3 +78,22 @@
 // console.log(lastIndexOf([ 0, 1, 4, 1, 2 ], 3), "=?", -1);
 // console.log(lastIndexOf([ 5, 5, 5 ], 5), "=?", 2);
 // console.log(lastIndexOf([], 3), "=?", -1);
+
+// const concat = function (arr1, arr2) {
+//   for (let i = 0; i < arr2.length; i++) {
+//     const element = arr2[i];
+//     arr1.push(element)
+    
+//   }
+//   return arr1
+// }
+// console.log(concat([ 1, 2, 3 ], [ 4, 5, 6 ]), "=?", [ 1, 2, 3, 4, 5, 6 ]);
+// console.log(concat([ 0, 3, 1 ], [ 9, 7, 2 ]), "=?", [ 0, 3, 1, 9, 7, 2 ]);
+// console.log(concat([], [ 9, 7, 2 ]), "=?", [ 9, 7, 2 ]);
+// console.log(concat([ 5, 10 ], []), "=?", [ 5, 10 ]);
+
+// const smartGarbage = function (trash, bins) {
+//    bins[trash] = bins[trash] + 1
+//   return bins
+// }
+// console.log(smartGarbage('recycling', { waste: 4, recycling: 2, compost: 5 }));
